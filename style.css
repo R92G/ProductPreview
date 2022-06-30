@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  --ff1: "Fraunces", serif;
+  --ff2: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+} /* Switch to border-box for box-sizing. */
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  background-color: white;
+  position: absolute;
+  height: 350px;
+  aspect-ratio: 1.35;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 2%;
+  display: flex;
+}
+
+.parfume {
+  border-radius: 2% 0 0 2%;
+}
+
+.text-container {
+  margin: 1.5em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.intro-text {
+  font-family: var(--ff2);
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  color: hsl(228, 12%, 48%);
+}
+
+.header {
+  font-family: var(--ff1);
+  letter-spacing: -1px;
+  font-size: 1.5em;
+  line-height: 25px;
+}
+
+.text {
+  font-family: var(--ff2);
+  font-size: 0.6em;
+  color: hsl(228, 12%, 48%);
+  line-height: 20px;
+}
+
+.budget {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1.5em;
+  gap: 1em;
+}
+
+/* .budget span {
+  vertical-align: middle;
+} */
+
+.first {
+  color: hsl(158, 36%, 37%);
+  font-family: var(--ff1);
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.second {
+  font-family: var(--ff2);
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  font-style: strike;
+  text-decoration: line-through;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  margin-top: 1.5em;
+  padding: 10px;
+  background-color: hsl(158, 67%, 15%);
+  color: white;
+  font-family: var(--ff1);
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+}
+
+.add-to-cart {
+  font-family: var(--ff2);
+  margin-left: 10px;
+}
